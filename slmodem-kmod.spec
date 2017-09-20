@@ -12,7 +12,7 @@
 
 Name:           slmodem-kmod
 Version:        2.9.11
-Release:        26%{?dist}.10
+Release:        27%{?dist}.34
 Summary:        Proprietary SmartLink softmodem kernel drivers
 
 Group:          System Environment/Kernel
@@ -102,6 +102,81 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Nov 10 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.34
+- rebuild for F12 release kernel
+
+* Mon Nov 09 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.33
+- rebuild for new kernels
+
+* Fri Nov 06 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.32
+- rebuild for new kernels
+
+* Wed Nov 04 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.31
+- rebuild for new kernels
+
+* Sat Oct 24 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.30
+- rebuild for new kernels
+
+* Wed Oct 21 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.29
+- rebuild for new kernels
+
+* Fri Jun 05 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.28
+- rebuild for final F11 kernel
+
+* Thu May 28 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.27
+- rebuild for new kernels
+
+* Wed May 27 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.26
+- rebuild for new kernels
+
+* Thu May 21 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.25
+- rebuild for new kernels
+
+* Wed May 13 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.24
+- rebuild for new kernels
+
+* Tue May 05 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.23
+- rebuild for new kernels
+
+* Sat May 02 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.22
+- rebuild for new kernels
+
+* Sun Apr 26 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.21
+- rebuild for new kernels
+
+* Sun Apr 05 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.20
+- rebuild for new kernels
+
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-27.19
+- rebuild for new F11 features
+
+* Sun Feb 15 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.19
+- rebuild for latest Fedora kernel;
+
+* Sun Feb 01 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.18
+- rebuild for latest Fedora kernel;
+
+* Sun Jan 25 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.17
+- rebuild for latest Fedora kernel;
+
+* Sun Jan 18 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.16
+- rebuild for latest Fedora kernel;
+
+* Sun Jan 11 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.15
+- rebuild for latest Fedora kernel;
+
+* Sun Jan 04 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.14
+- rebuild for latest Fedora kernel;
+
+* Sun Dec 28 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.13
+- rebuild for latest Fedora kernel;
+
+* Sun Dec 21 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.12
+- rebuild for latest Fedora kernel;
+
+* Sun Dec 14 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.11
+- rebuild for latest Fedora kernel;
+
 * Sat Nov 22 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.9.11-26.10
 - rebuilt
 
