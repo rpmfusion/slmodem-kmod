@@ -1,0 +1,12 @@
+diff -up slmodem-2.9.11-20080817/drivers/Makefile.orig slmodem-2.9.11-20080817/drivers/Makefile
+--- slmodem-2.9.11-20080817/drivers/Makefile.orig	2008-10-15 22:22:57.000000000 +0200
++++ slmodem-2.9.11-20080817/drivers/Makefile	2008-10-15 22:45:25.000000000 +0200
+@@ -16,7 +16,7 @@
+ #KBUILD_VERBOSE=1
+ #export KBUILD_VERBOSE
+ 
+-KERNEL_DIR:=/lib/modules/$(shell uname -r)/build
++KERNEL_DIR:=$(KSRC)
+ SUBLEVEL:=$(shell echo $(KERNEL_DIR) | cut -d. -f3 | cut -d. -f1 | cut -d-  -f1)
+ # slusb support ends at 2.6.24
+ AGE:=$(shell if [ "$(SUBLEVEL)" -gt 24 ] ;then echo NEW;fi)
